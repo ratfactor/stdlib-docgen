@@ -1,13 +1,7 @@
 = Zig Standard Library Doc Generator
 
-This generates a single-page "map" of the functions and types available in the
-Zig stdlib.  The idea is to make it easy to do an in-page browser search for
-the feature you want and then have a handy link to view the source, where you
-can learn more about the usage or implementation of the feature.
-
-Latest export from this tool (and currently quite horrendous) can be viewed here:
-
-http://ratfactor.com/zig/stdlib/
+Generates a single-page "map" of the functions and types available in the
+Zig stdlib.
 
 == Based on g-w1's zigdoc
 
@@ -17,6 +11,16 @@ I shamelessly copied zigdoc and pared it down to produce the output I wanted.
 If you want multi-page Zig stdlib docs with HTML or JSON output and full
 function signatures (and even whole functions if they're 3 lines or less), then
 go take a look at zigdoc!
+
+== What
+
+The idea is to make it easy to do an in-page browser search for the feature you
+want and then have a handy link to view the source, where you can learn more
+about the usage or implementation of the feature.
+
+Latest export from this tool (and currently quite horrendous) can be viewed here:
+
+http://ratfactor.com/zig/stdlib/
 
 == Usage
 
@@ -34,7 +38,8 @@ If you would like to change any settings, edit `gen.zig`.
 * Sort source files
 * How to handle little stubby helper files that don't do much on their own?
 * Sort decls by type then name
-* Summarize but don't show all billion values in some of the modules (index.html started at 13Mb and I've got it down to 4Mb, but there's still too much)
+* Summarize but don't show all billion values in some of the modules (index.html
+  started at 13Mb and I've got it down to 4Mb, but there's still too much)
 * Make functions more obvious (just add `()`?)
 * Clever way to add descriptions - don't really want to create a separate
   text file for _each_ module file, but that might be the best way to do it
