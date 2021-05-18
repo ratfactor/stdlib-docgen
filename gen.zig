@@ -9,7 +9,6 @@ const max_read_filesize = 2 * 1024 * 1024 * 1024;
 
 var tree: ast.Tree = undefined;
 
-// TODO: rename decl_info_lists to decl_info_lists
 const DeclInfoLists = struct {
     fields: std.ArrayList(DeclInfo),
     types: std.ArrayList(DeclInfo),
