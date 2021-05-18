@@ -1,0 +1,30 @@
+= Zig Standard Library Doc Generator
+
+First of all, this only exists because https://g-w1.github.io/[g-w1] created
+https://github.com/g-w1/zigdoc[zigdoc].
+I shamelessly copied zigdoc and pared it down to produce the output I wanted.
+If you want multi-page Zig stdlib docs with HTML or JSON output and full
+function signatures (and even whole functions if they're 3 lines or less), then
+use zigdoc!
+
+== Usage
+
+----
+$ zig build-exe gen.zig
+$ ./gen /path/to/zig/lib/std/
+----
+
+Output is a single `index.html`.
+
+If you would like to change any settings, edit `gen.zig`.
+
+== TODO
+
+* Sort source files
+* How to handle little stubby helper files that don't do much on their own?
+* Sort decls by type then name
+* Summarize but don't show all billion values in some of the modules
+* Make functions clearer (just add `()`?)
+* Link to current output on ratfactor.com
+* Clever way to add descriptions - don't really want to create a separate
+  text file for _each_ module file, but that might be the best way to do it

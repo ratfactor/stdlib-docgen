@@ -1,0 +1,5 @@
+*.swp
+*~
+gen
+zig-cache
+go.sh

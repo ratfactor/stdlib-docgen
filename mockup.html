@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>Zig Standard Library</title>
+    <meta charset="utf-8">
+    <style>
+        body { font-size: 12px; font-family: sans-serif; color: #333; }
+        main { width: 100%; display: flex; flex-flow: row wrap; }
+        h2 { font-size: 16px; margin: 0; padding: 5px; background: #FFBB4D; }
+        h3 { font-size: 12px; margin: 0; padding: 3px; background: #8c8c8c; }
+        h2 a { color: #000; }
+        h3 a { color: #fff; }
+        body > p { width: 800px; }
+        main > .thing { margin: 5px; 50% border: 1px solid #ddd; width: 400px; }
+        .thing .thing { background: #fff; }
+        .fields span, .types span, .funcs span { background: #FFBB4D; color: #000; padding: 1px; }
+    </style>
+</head>
+<body>
+<h1>    ⚡ Zig Standard Library Map</h1>
+<p>You are invited to learn the innards of the std lib by reading the source (and comments!) of the library itself. This document serves as a map to the available namespaces and boopity beeptity blorp. Inspirational and informative info about where to begin goes here. Like Gandalf gently guiding a Hobbit to the foot of Mount Doom.
+<main>
+    <div class="thing">
+        <h2><a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig">array_hash_map</a></h2>
+        <p>This is a pithy statement about the hashity-mappity array stuff you can find in this namespace. A tiny bit of guidance. Also any links to related tutorials, blog posts, videos.</p>
+
+        <p class="funcs"><span>Functions:</span>
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L24">AutoArrayHashMapUnmanaged</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L29">StringArrayHashMap</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L33">StringArrayHashMapUnmanaged</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L37">eqlString</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L41">hashString</a>
+        </p>
+
+        <div class="thing">
+            <h3><a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L57">ArrayHashMap</a></h3>
+            <p>This is another nice little paragraph explaining briefly what this is for.</p>
+            <p class="types"><span>Types:</span>
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L69">Entry</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L71">GetOrPutResult</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L70">Hash</a>
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L73">Iterator</a> (deprecated),
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L68">Unmanaged</a>,
+            </p>
+            <p class="funcs"><span>Functions:</span>
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L95">init</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L102">fromOwnedArrayList</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L112">deinit</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L117">clearRetainingCapacity</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L121">clearAndFree</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L125">count</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L129">iterator</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L136">getOrPut</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L146">getOrPutAssumeCapacity</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L157">getOrPutValue</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L161">ensureCapacity</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L167">capacity</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>
+            </p>
+        </div>
+
+        <div class="thing">
+            <h3><a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L293">ArrayHashMapUnmanaged</a></h3>
+            <p class="fields"><span>Fields:</span>
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L318">entries</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L321">index_header</a>
+            </p>
+            <p class="types"><span>Types:</span>
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L1">Entry</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L1">GetOrPutResult</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L1">Hash</a>
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L1">Iterator</a> (deprecated),
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L1">Managed</a>,
+            </p>
+            <p class="funcs"><span>Functions:</span>
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>
+            </p>
+        </div>
+
+        <div class="thing">
+            <h3><a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">Foo</a></h3>
+            <p class="types"><span>Types:</span>
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">Foo</a>
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">Foo</a> (deprecated),
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">Foo</a>,
+            </p>
+            <p class="funcs"><span>Functions:</span>
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>,
+                <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/array_hash_map.zig#L666">foo</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="thing">
+        <h2><a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig">ascii</a></h2>
+
+        <p>The ascii namespace contains handy functions for treating foo as bar and doing things to stuff.</p>
+
+        <p class="funcs"><span>Functions:</span>
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig#L196">isAlNum</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig#L201">isAlpha</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig#L205">isCntrl</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig#L209">isDigit</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig#L213">isGraph</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig#L217">isLower</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig#L221">isPrint</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig#L225">isPunct</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig#L229">isSpace</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig#L247">isUpper</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig#L251">isXDigit</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig#L255">isASCII</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig#L259">isBlank</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig#L263">toUpper</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig#L271">toLower</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig#L291">allocLowerString</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig#L307">allocUpperString</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig#L323">eqlIgnoreCase</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig#L338">startsWithIgnoreCase</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig#L347">endsWithIgnoreCase</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig#L356">indexOfIgnoreCasePos</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig#L370">indexOfIgnoreCase</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig#L384">orderIgnoreCase</a>,
+            <a href="https://github.com/ziglang/zig/blob/df0f7f46923da9927df18809ad1d744102e78ebd/lib/std/ascii.zig#L399">lessThanIgnoreCase</a>
+        </p>
+    </div>
+
+
+    <div class="thing">
+        <h2><a href="#">foo</a></h2>
+
+        <p>Eum consequatur atque rerum rem culpa quia. Qui saepe iure dolorem. Ullam placeat vel dignissimos dicta sint et saepe delectus. Accusantium ea dolores velit quo iure. Vel quo quia aut aut consequuntur enim vero.</p>
+
+        <p class="funcs"><span>Functions:</span>
+            <a href="#">foo</a>,
+            <a href="#">foo</a>,
+            <a href="#">foo</a>,
+            <a href="#">foo</a>
+        </p>
+
+        <div class="thing">
+            <h3><a href="#">FooFoo</a></h3>
+            <p>For bar qux bizbaz. For bar qux bizbaz. Be sure to always bloop. Don't ever use the florpy flap.</p>
+            <p class="types"><span>Types:</span>
+                <a href="#">Foo</a>,
+                <a href="#">Foo</a>,
+                <a href="#">Foo</a>,
+                <a href="#">Foo</a>,
+                <a href="#">Foo</a>,
+                <a href="#">Foo</a>
+            </p>
+            <p class="funcs"><span>Functions:</span>
+                <a href="#">foo</a>,
+                <a href="#">foo</a>,
+                <a href="#">foo</a>,
+                <a href="#">foo</a>,
+                <a href="#">foo</a>,
+                <a href="#">foo</a>,
+                <a href="#">foo</a>,
+                <a href="#">foo</a>,
+                <a href="#">foo</a>,
+                <a href="#">foo</a>,
+                <a href="#">foo</a>,
+                <a href="#">foo</a>,
+                <a href="#">foo</a>,
+                <a href="#">foo</a>,
+                <a href="#">foo</a>,
+                <a href="#">foo</a>,
+                <a href="#">foo</a>,
+                <a href="#">foo</a>
+            </p>
+        </div>
+
+        <div class="thing">
+            <h3><a href="#">BoopBoop</a></h3>
+            <p class="types"><span>Types:</span>
+                <a href="#">Boop</a>,
+                <a href="#">Boop</a>,
+                <a href="#">Boop</a>,
+                <a href="#">Boop</a>
+            </p>
+            <p class="funcs"><span>Functions:</span>
+                <a href="#">boop</a>,
+                <a href="#">boop</a>,
+                <a href="#">boop</a>,
+                <a href="#">boop</a>,
+                <a href="#">boop</a>,
+                <a href="#">boop</a>,
+                <a href="#">boop</a>,
+                <a href="#">boop</a>,
+                <a href="#">boop</a>,
+            </p>
+        </div>
+    </div>
+
+
+    <div class="thing">
+        <h2><a href="#">bar</a></h2>
+		<p>Consectetur aliquid voluptatum nihil accusamus voluptatem cupiditate et illum. Odio eum aut nam qui aut nemo molestiae ullam. Dicta eius qui ex dolores sint vel ut. Perferendis molestiae beatae et. Molestiae repellendus fugiat illo.</p>
+
+	<p>Aspernatur impedit ex nulla. Dignissimos maiores dolore perferendis et laborum minima eaque. Voluptatem consequatur accusantium voluptatem excepturi id commodi id. Alias non rerum magni voluptatem hic illo fugiat totam. Cum inventore tempore qui.</p>
+
+        <p class="funcs"><span>Functions:</span>
+            <a href="#">bar</a>,
+            <a href="#">bar</a>,
+            <a href="#">bar</a>,
+            <a href="#">bar</a>
+        </p>
+
+        <div class="thing">
+            <h3><a href="#">BarBar</a></h3>
+            <p class="types"><span>Types:</span>
+                <a href="#">Bar</a>,
+                <a href="#">Bar</a>,
+                <a href="#">Bar</a>,
+                <a href="#">Bar</a>,
+                <a href="#">Bar</a>,
+                <a href="#">Bar</a>
+            </p>
+            <p class="funcs"><span>Functions:</span>
+                <a href="#">bar</a>,
+                <a href="#">bar</a>,
+                <a href="#">bar</a>,
+                <a href="#">bar</a>,
+                <a href="#">bar</a>,
+                <a href="#">bar</a>,
+                <a href="#">bar</a>,
+                <a href="#">bar</a>,
+                <a href="#">bar</a>,
+                <a href="#">bar</a>,
+                <a href="#">bar</a>,
+                <a href="#">bar</a>,
+                <a href="#">bar</a>,
+                <a href="#">bar</a>,
+                <a href="#">bar</a>,
+                <a href="#">bar</a>,
+                <a href="#">bar</a>,
+                <a href="#">bar</a>
+            </p>
+        </div>
+
+        <div class="thing">
+            <h3><a href="#">BoopBoop</a></h3>
+            <p class="types"><span>Types:</span>
+                <a href="#">Boop</a>,
+                <a href="#">Boop</a>,
+                <a href="#">Boop</a>,
+                <a href="#">Boop</a>
+            </p>
+            <p class="funcs"><span>Functions:</span>
+                <a href="#">boop</a>,
+                <a href="#">boop</a>,
+                <a href="#">boop</a>,
+                <a href="#">boop</a>,
+                <a href="#">boop</a>,
+                <a href="#">boop</a>,
+                <a href="#">boop</a>,
+                <a href="#">boop</a>,
+                <a href="#">boop</a>,
+            </p>
+        </div>
+    </div>
+</main>
+</body>
+</html>
