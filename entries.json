@@ -1,0 +1,2077 @@
+{
+"Progress.zig": {
+    "description": "A terminal progress indictor.",
+    "hide": false,
+    "compact": false
+},
+"SemanticVersion.zig": {
+    "description": "Parse and compare Semantic Version 2 version numbers.",
+    "hide": false,
+    "compact": false
+},
+"Thread.zig": {
+    "description": "Operating system provided threads.",
+    "hide": false,
+    "compact": false
+},
+"Thread/AutoResetEvent.zig": {
+    "hide": false,
+    "compact": false
+},
+"Thread/Condition.zig": {
+    "hide": false,
+    "compact": false
+},
+"Thread/Mutex.zig": {
+    "hide": false,
+    "compact": false
+},
+"Thread/ResetEvent.zig": {
+    "hide": false,
+    "compact": false
+},
+"Thread/RwLock.zig": {
+    "hide": false,
+    "compact": false
+},
+"Thread/Semaphore.zig": {
+    "hide": false,
+    "compact": false
+},
+"Thread/StaticResetEvent.zig": {
+    "hide": false,
+    "compact": false
+},
+"array_hash_map.zig": {
+    "description": "General purpose hash table when fast iteration over items is desired. Otherwise HashMap is faster. Note the handy StringArrayHashMap() and AutoArrayHashMap() functions.",
+    "hide": false,
+    "compact": false
+},
+"array_list.zig": {
+    "description": "One of the most popular items in the Standard Library. A list of items that can grow! Give it an allocator.",
+    "hide": false,
+    "compact": false
+},
+"ascii.zig": {
+    "description": "Handle common operations on ASCII characters (such as detecting upper and lower case letters). See unicode.zig for Unicode-specific operations and mem.zig for most of what you might think of as 'string' operations in other languages.",
+    "hide": false,
+    "compact": false
+},
+"atomic.zig": {
+    "description": "Contains thread-safe types.",
+    "hide": false,
+    "compact": false
+},
+"atomic/bool.zig": {
+    "hide": false,
+    "compact": false
+},
+"atomic/int.zig": {
+    "hide": false,
+    "compact": false
+},
+"atomic/queue.zig": {
+    "hide": false,
+    "compact": false
+},
+"atomic/stack.zig": {
+    "hide": false,
+    "compact": false
+},
+"base64.zig": {
+    "description": "Encode and decode binary data to and from \"ASCII-safe\" text Base64 encodings.",
+    "hide": false,
+    "compact": false
+},
+"bit_set.zig": {
+    "description": "Types for compactly storing a series of single bit values.",
+    "hide": false,
+    "compact": false
+},
+"buf_map.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"buf_set.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"build.zig": {
+    "description": "The Zig build system. Performs the same actions as 'make' but build.zig files are written in pure Zig.",
+    "hide": false,
+    "compact": false
+},
+"build/check_file.zig": {
+    "hide": false,
+    "compact": false
+},
+"build/emit_raw.zig": {
+    "hide": false,
+    "compact": false
+},
+"build/fmt.zig": {
+    "hide": false,
+    "compact": false
+},
+"build/run.zig": {
+    "hide": false,
+    "compact": false
+},
+"build/translate_c.zig": {
+    "hide": false,
+    "compact": false
+},
+"build/write_file.zig": {
+    "hide": false,
+    "compact": false
+},
+"builtin.zig": {
+    "description": "Types built into the Zig language itself. This file is indespensible for understanding the metadata available during compile time type introspection and reflection. This file is also used by the compiler!",
+    "hide": false,
+    "compact": false
+},
+"c.zig": {
+    "description": "Access to common C Standard Library functions and such. See the additional functionality imported for each supported platform such as Linux, Windows, FreeBSD, Solaris, etc.",
+    "hide": false,
+    "compact": false
+},
+"c/builtins.zig": {
+    "hide": false,
+    "compact": false
+},
+"c/darwin.zig": {
+    "hide": false,
+    "compact": false
+},
+"c/dragonfly.zig": {
+    "hide": false,
+    "compact": false
+},
+"c/emscripten.zig": {
+    "hide": false,
+    "compact": false
+},
+"c/freebsd.zig": {
+    "hide": false,
+    "compact": false
+},
+"c/fuchsia.zig": {
+    "hide": false,
+    "compact": false
+},
+"c/haiku.zig": {
+    "hide": false,
+    "compact": false
+},
+"c/hermit.zig": {
+    "hide": false,
+    "compact": false
+},
+"c/linux.zig": {
+    "hide": false,
+    "compact": false
+},
+"c/minix.zig": {
+    "hide": false,
+    "compact": false
+},
+"c/netbsd.zig": {
+    "hide": false,
+    "compact": false
+},
+"c/openbsd.zig": {
+    "hide": false,
+    "compact": false
+},
+"c/solaris.zig": {
+    "hide": false,
+    "compact": false
+},
+"c/tokenizer.zig": {
+    "hide": false,
+    "compact": false
+},
+"c/windows.zig": {
+    "hide": false,
+    "compact": false
+},
+"child_process.zig": {
+    "description": "When a father and mother process love each other very much.",
+    "hide": false,
+    "compact": false
+},
+"coff.zig": {
+    "description": "Common Object File Format for executable, object, and shared library code on elder Unix, MS Windows PE, and UEFI environments.",
+    "hide": false,
+    "compact": false
+},
+"compress.zig": {
+    "description": "Common compression/decompression algorithms.",
+    "hide": false,
+    "compact": false
+},
+"compress/deflate.zig": {
+    "hide": false,
+    "compact": false
+},
+"compress/gzip.zig": {
+    "hide": false,
+    "compact": false
+},
+"compress/zlib.zig": {
+    "hide": false,
+    "compact": false
+},
+"comptime_string_map.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"crypto.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"crypto/25519/curve25519.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/25519/ed25519.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/25519/edwards25519.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/25519/field.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/25519/ristretto255.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/25519/scalar.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/25519/x25519.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/aegis.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/aes.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/aes/aesni.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/aes/armcrypto.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/aes/soft.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/aes_gcm.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/aes_ocb.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/bcrypt.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/benchmark.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/blake2.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/blake3.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/chacha20.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/errors.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/ghash.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/gimli.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/hkdf.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/hmac.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/isap.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/md5.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/modes.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/pbkdf2.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/pcurves/common.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/pcurves/p256.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/pcurves/p256/field.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/pcurves/p256/p256_64.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/pcurves/p256/p256_scalar_64.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/pcurves/p256/scalar.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/pcurves/tests.zig": {
+    "hide": true,
+    "compact": false
+},
+"crypto/poly1305.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/salsa20.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/sha1.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/sha2.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/sha3.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/siphash.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/test.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/tlcsprng.zig": {
+    "hide": false,
+    "compact": false
+},
+"crypto/utils.zig": {
+    "hide": false,
+    "compact": false
+},
+"cstr.zig": {
+    "description": "See strings!",
+    "hide": false,
+    "compact": false
+},
+"debug.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"dwarf.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"dwarf_bits.zig": {
+    "description": "Note that the listing here has been truncated because of how many dwarf bits there are. :-)",
+    "hide": false,
+    "compact": true
+},
+"dynamic_library.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"elf.zig": {
+    "description": "ELF executable and linkable format (executable file format) used by most Unix-like systems. Note that this entry has been truncated because it has a lot of symbols.",
+    "hide": false,
+    "compact": true
+},
+"enums.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"event.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"event/batch.zig": {
+    "hide": false,
+    "compact": false
+},
+"event/channel.zig": {
+    "hide": false,
+    "compact": false
+},
+"event/future.zig": {
+    "hide": false,
+    "compact": false
+},
+"event/group.zig": {
+    "hide": false,
+    "compact": false
+},
+"event/lock.zig": {
+    "hide": false,
+    "compact": false
+},
+"event/locked.zig": {
+    "hide": false,
+    "compact": false
+},
+"event/loop.zig": {
+    "hide": false,
+    "compact": false
+},
+"event/rwlock.zig": {
+    "hide": false,
+    "compact": false
+},
+"event/rwlocked.zig": {
+    "hide": false,
+    "compact": false
+},
+"event/wait_group.zig": {
+    "hide": false,
+    "compact": false
+},
+"fifo.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"fmt.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"fmt/errol.zig": {
+    "hide": false,
+    "compact": false
+},
+"fmt/errol/enum3.zig": {
+    "hide": false,
+    "compact": false
+},
+"fmt/errol/lookup.zig": {
+    "hide": false,
+    "compact": false
+},
+"fmt/parse_float.zig": {
+    "hide": false,
+    "compact": false
+},
+"fmt/parse_hex_float.zig": {
+    "hide": false,
+    "compact": false
+},
+"fs.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"fs/file.zig": {
+    "hide": false,
+    "compact": false
+},
+"fs/get_app_data_dir.zig": {
+    "hide": false,
+    "compact": false
+},
+"fs/path.zig": {
+    "hide": false,
+    "compact": false
+},
+"fs/test.zig": {
+    "hide": false,
+    "compact": false
+},
+"fs/wasi.zig": {
+    "hide": false,
+    "compact": false
+},
+"fs/watch.zig": {
+    "hide": false,
+    "compact": false
+},
+"hash.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"hash/adler.zig": {
+    "hide": false,
+    "compact": false
+},
+"hash/auto_hash.zig": {
+    "hide": false,
+    "compact": false
+},
+"hash/benchmark.zig": {
+    "hide": false,
+    "compact": false
+},
+"hash/cityhash.zig": {
+    "hide": false,
+    "compact": false
+},
+"hash/crc.zig": {
+    "hide": false,
+    "compact": false
+},
+"hash/fnv.zig": {
+    "hide": false,
+    "compact": false
+},
+"hash/murmur.zig": {
+    "hide": false,
+    "compact": false
+},
+"hash/wyhash.zig": {
+    "hide": false,
+    "compact": false
+},
+"hash_map.zig": {
+    "description": "General purpose hash table. Use ArrayHashMap instead when fast iteration over items is desired. Otherwise this is faster. Note the handy StringHashMap() and AutoHashMap() functions.",
+    "hide": false,
+    "compact": false
+},
+"heap.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"heap/arena_allocator.zig": {
+    "hide": false,
+    "compact": false
+},
+"heap/general_purpose_allocator.zig": {
+    "hide": false,
+    "compact": false
+},
+"heap/logging_allocator.zig": {
+    "hide": false,
+    "compact": false
+},
+"io.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"io/bit_reader.zig": {
+    "hide": false,
+    "compact": false
+},
+"io/bit_writer.zig": {
+    "hide": false,
+    "compact": false
+},
+"io/buffered_atomic_file.zig": {
+    "hide": false,
+    "compact": false
+},
+"io/buffered_reader.zig": {
+    "hide": false,
+    "compact": false
+},
+"io/buffered_writer.zig": {
+    "hide": false,
+    "compact": false
+},
+"io/c_writer.zig": {
+    "hide": false,
+    "compact": false
+},
+"io/change_detection_stream.zig": {
+    "hide": false,
+    "compact": false
+},
+"io/counting_reader.zig": {
+    "hide": false,
+    "compact": false
+},
+"io/counting_writer.zig": {
+    "hide": false,
+    "compact": false
+},
+"io/find_byte_writer.zig": {
+    "hide": false,
+    "compact": false
+},
+"io/fixed_buffer_stream.zig": {
+    "hide": false,
+    "compact": false
+},
+"io/limited_reader.zig": {
+    "hide": false,
+    "compact": false
+},
+"io/multi_writer.zig": {
+    "hide": false,
+    "compact": false
+},
+"io/peek_stream.zig": {
+    "hide": false,
+    "compact": false
+},
+"io/reader.zig": {
+    "hide": false,
+    "compact": false
+},
+"io/seekable_stream.zig": {
+    "hide": false,
+    "compact": false
+},
+"io/stream_source.zig": {
+    "hide": false,
+    "compact": false
+},
+"io/test.zig": {
+    "hide": false,
+    "compact": false
+},
+"io/writer.zig": {
+    "hide": false,
+    "compact": false
+},
+"json.zig": {
+    "description": "JSON parser and writer. Stream tokens or parse into Zig data types!",
+    "hide": false,
+    "compact": false
+},
+"json/test.zig": {
+    "hide": true
+},
+"json/write_stream.zig": {
+    "hide": false,
+    "compact": false
+},
+"leb128.zig": {
+    "description": "Little Endian Base 128 is a variable-length compression format for integers. This is what happens when an integer must be taught the ways of love by a gardener in 1901.",
+    "hide": false,
+    "compact": false
+},
+"linked_list.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"log.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"macho.zig": {
+    "description": "Mach-O executable file format used in NeXTSTEP, macOS, and iOS.",
+    "hide": false,
+    "compact": true
+},
+"math.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"math/acos.zig": {
+    "hide": false,
+    "compact": false
+},
+"math/acosh.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/asin.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/asinh.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/atan.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/atan2.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/atanh.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/big.zig": {
+    "hide": false,
+    "compact": false
+},
+"math/big/int.zig": {
+    "hide": false,
+    "compact": false
+},
+"math/big/int_test.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/big/rational.zig": {
+    "hide": false,
+    "compact": false
+},
+"math/cbrt.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/ceil.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/complex.zig": {
+    "hide": false,
+    "compact": false
+},
+"math/complex/abs.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/complex/acos.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/complex/acosh.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/complex/arg.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/complex/asin.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/complex/asinh.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/complex/atan.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/complex/atanh.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/complex/conj.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/complex/cos.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/complex/cosh.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/complex/exp.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/complex/ldexp.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/complex/log.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/complex/pow.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/complex/proj.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/complex/sin.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/complex/sinh.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/complex/sqrt.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/complex/tan.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/complex/tanh.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/copysign.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/cos.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/cosh.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/epsilon.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/exp.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/exp2.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/expm1.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/expo2.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/fabs.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/floor.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/fma.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/frexp.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/hypot.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/ilogb.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/inf.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/isfinite.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/isinf.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/isnan.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/isnormal.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/ln.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/log.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/log10.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/log1p.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/log2.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/modf.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/nan.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/pow.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/powi.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/round.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/scalbn.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/signbit.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/sin.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/sinh.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/sqrt.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/tan.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/tanh.zig": {
+    "hide": true,
+    "compact": false
+},
+"math/trunc.zig": {
+    "hide": true,
+    "compact": false
+},
+"mem.zig": {
+    "description": "Compare, duplicate, trim, and otherwise manipulate memory. This can be used for most of what you might think of as 'string' operations in other languages.",
+    "hide": false,
+    "compact": false
+},
+"mem/Allocator.zig": {
+    "compact": false
+},
+"meta.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"meta/trailer_flags.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"meta/trait.zig": {
+    "compact": false
+},
+"multi_array_list.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"net.zig": {
+    "description": "Low level networking support.",
+    "hide": false,
+    "compact": false
+},
+"net/test.zig": {
+    "description": "",
+    "hide": true,
+    "compact": false
+},
+"once.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"os.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"os/bits.zig": {
+    "hide": true
+},
+"os/bits/darwin.zig": {
+    "hide": true
+},
+"os/bits/dragonfly.zig": {
+    "hide": true
+},
+"os/bits/freebsd.zig": {
+    "hide": true
+},
+"os/bits/haiku.zig": {
+    "hide": true
+},
+"os/bits/linux.zig": {
+    "hide": true
+},
+"os/bits/linux/arm-eabi.zig": {
+    "hide": true
+},
+"os/bits/linux/arm64.zig": {
+    "hide": true
+},
+"os/bits/linux/errno-generic.zig": {
+    "hide": true
+},
+"os/bits/linux/errno-mips.zig": {
+    "hide": true
+},
+"os/bits/linux/errno-sparc.zig": {
+    "hide": true
+},
+"os/bits/linux/i386.zig": {
+    "hide": true
+},
+"os/bits/linux/mips.zig": {
+    "hide": true
+},
+"os/bits/linux/netlink.zig": {
+    "hide": true
+},
+"os/bits/linux/powerpc.zig": {
+    "hide": true
+},
+"os/bits/linux/powerpc64.zig": {
+    "hide": true
+},
+"os/bits/linux/prctl.zig": {
+    "hide": true
+},
+"os/bits/linux/riscv64.zig": {
+    "hide": true
+},
+"os/bits/linux/securebits.zig": {
+    "hide": true
+},
+"os/bits/linux/sparc64.zig": {
+    "hide": true
+},
+"os/bits/linux/x86_64.zig": {
+    "hide": true
+},
+"os/bits/netbsd.zig": {
+    "hide": true
+},
+"os/bits/openbsd.zig": {
+    "hide": true
+},
+"os/bits/wasi.zig": {
+    "hide": true
+},
+"os/bits/windows.zig": {
+    "hide": true
+},
+"os/darwin.zig": {
+    "hide": true
+},
+"os/dragonfly.zig": {
+    "hide": true
+},
+"os/freebsd.zig": {
+    "hide": true
+},
+"os/haiku.zig": {
+    "hide": true
+},
+"os/linux.zig": {
+    "hide": true
+},
+"os/linux/arm-eabi.zig": {
+    "hide": true
+},
+"os/linux/arm64.zig": {
+    "hide": true
+},
+"os/linux/bpf.zig": {
+    "hide": true
+},
+"os/linux/bpf/btf.zig": {
+    "hide": true
+},
+"os/linux/bpf/btf_ext.zig": {
+    "hide": true
+},
+"os/linux/bpf/helpers.zig": {
+    "hide": true
+},
+"os/linux/bpf/kern.zig": {
+    "hide": true
+},
+"os/linux/i386.zig": {
+    "hide": true
+},
+"os/linux/io_uring.zig": {
+    "hide": true
+},
+"os/linux/mips.zig": {
+    "hide": true
+},
+"os/linux/powerpc.zig": {
+    "hide": true
+},
+"os/linux/powerpc64.zig": {
+    "hide": true
+},
+"os/linux/riscv64.zig": {
+    "hide": true
+},
+"os/linux/sparc64.zig": {
+    "hide": true
+},
+"os/linux/start_pie.zig": {
+    "hide": true
+},
+"os/linux/test.zig": {
+    "hide": true,
+    "compact": false
+},
+"os/linux/thumb.zig": {
+    "hide": true
+},
+"os/linux/tls.zig": {
+    "hide": true
+},
+"os/linux/vdso.zig": {
+    "hide": true
+},
+"os/linux/x86_64.zig": {
+    "hide": true
+},
+"os/netbsd.zig": {
+    "hide": true
+},
+"os/openbsd.zig": {
+    "hide": true
+},
+"os/test.zig": {
+    "hide": true
+},
+"os/uefi.zig": {
+    "hide": true
+},
+"os/uefi/protocols.zig": {
+    "hide": true
+},
+"os/uefi/protocols/absolute_pointer_protocol.zig": {
+    "hide": true
+},
+"os/uefi/protocols/device_path_protocol.zig": {
+    "hide": true
+},
+"os/uefi/protocols/edid_active_protocol.zig": {
+    "hide": true
+},
+"os/uefi/protocols/edid_discovered_protocol.zig": {
+    "hide": true
+},
+"os/uefi/protocols/edid_override_protocol.zig": {
+    "hide": true
+},
+"os/uefi/protocols/file_protocol.zig": {
+    "hide": true
+},
+"os/uefi/protocols/graphics_output_protocol.zig": {
+    "hide": true
+},
+"os/uefi/protocols/hii.zig": {
+    "hide": true
+},
+"os/uefi/protocols/hii_database_protocol.zig": {
+    "hide": true
+},
+"os/uefi/protocols/hii_popup_protocol.zig": {
+    "hide": true
+},
+"os/uefi/protocols/ip6_config_protocol.zig": {
+    "hide": true
+},
+"os/uefi/protocols/ip6_protocol.zig": {
+    "hide": true
+},
+"os/uefi/protocols/ip6_service_binding_protocol.zig": {
+    "hide": true
+},
+"os/uefi/protocols/loaded_image_protocol.zig": {
+    "hide": true
+},
+"os/uefi/protocols/managed_network_protocol.zig": {
+    "hide": true
+},
+"os/uefi/protocols/managed_network_service_binding_protocol.zig": {
+    "hide": true
+},
+"os/uefi/protocols/rng_protocol.zig": {
+    "hide": true
+},
+"os/uefi/protocols/shell_parameters_protocol.zig": {
+    "hide": true
+},
+"os/uefi/protocols/simple_file_system_protocol.zig": {
+    "hide": true
+},
+"os/uefi/protocols/simple_network_protocol.zig": {
+    "hide": true
+},
+"os/uefi/protocols/simple_pointer_protocol.zig": {
+    "hide": true
+},
+"os/uefi/protocols/simple_text_input_ex_protocol.zig": {
+    "hide": true
+},
+"os/uefi/protocols/simple_text_input_protocol.zig": {
+    "hide": true
+},
+"os/uefi/protocols/simple_text_output_protocol.zig": {
+    "hide": true
+},
+"os/uefi/protocols/udp6_protocol.zig": {
+    "hide": true
+},
+"os/uefi/protocols/udp6_service_binding_protocol.zig": {
+    "hide": true
+},
+"os/uefi/status.zig": {
+    "hide": true
+},
+"os/uefi/tables.zig": {
+    "hide": true
+},
+"os/uefi/tables/boot_services.zig": {
+    "hide": true
+},
+"os/uefi/tables/configuration_table.zig": {
+    "hide": true
+},
+"os/uefi/tables/runtime_services.zig": {
+    "hide": true
+},
+"os/uefi/tables/system_table.zig": {
+    "hide": true
+},
+"os/uefi/tables/table_header.zig": {
+    "hide": true
+},
+"os/wasi.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"os/windows.zig": {
+    "hide": false,
+    "compact": false
+},
+"os/windows/advapi32.zig": {
+    "hide": false,
+    "compact": false
+},
+"os/windows/bits.zig": {
+    "hide": true
+},
+"os/windows/gdi32.zig": {
+    "hide": true
+},
+"os/windows/kernel32.zig": {
+    "hide": true
+},
+"os/windows/lang.zig": {
+    "hide": true
+},
+"os/windows/ntdll.zig": {
+    "hide": true
+},
+"os/windows/ntstatus.zig": {
+    "hide": true
+},
+"os/windows/ole32.zig": {
+    "hide": true
+},
+"os/windows/psapi.zig": {
+    "hide": true
+},
+"os/windows/shell32.zig": {
+    "hide": true
+},
+"os/windows/sublang.zig": {
+    "hide": true
+},
+"os/windows/user32.zig": {
+    "hide": true
+},
+"os/windows/win32error.zig": {
+    "hide": true
+},
+"os/windows/ws2_32.zig": {
+    "hide": true
+},
+"packed_int_array.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"pdb.zig": {
+    "description": "",
+    "hide": false,
+    "compact": true
+},
+"priority_dequeue.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"priority_queue.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"process.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"rand.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"rand/Gimli.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"rand/Isaac64.zig": {
+    "hide": false,
+    "compact": false
+},
+"rand/Pcg.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"rand/Sfc64.zig": {
+    "hide": false,
+    "compact": false
+},
+"rand/Xoroshiro128.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"rand/ziggurat.zig": {
+    "hide": false,
+    "compact": false
+},
+"sort.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"special/build_runner.zig": {
+    "hide": true
+},
+"special/c.zig": {
+    "hide": true
+},
+"special/compiler_rt.zig": {
+    "hide": true
+},
+"special/compiler_rt/addXf3.zig": {
+    "hide": true
+},
+"special/compiler_rt/addXf3_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/arm.zig": {
+    "hide": true
+},
+"special/compiler_rt/ashldi3_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/ashlti3_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/ashrdi3_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/ashrti3_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/atomics.zig": {
+    "hide": true
+},
+"special/compiler_rt/aulldiv.zig": {
+    "hide": true
+},
+"special/compiler_rt/aullrem.zig": {
+    "hide": true
+},
+"special/compiler_rt/clear_cache.zig": {
+    "hide": true
+},
+"special/compiler_rt/clzsi2.zig": {
+    "hide": true
+},
+"special/compiler_rt/clzsi2_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/compareXf2.zig": {
+    "hide": true
+},
+"special/compiler_rt/comparedf2_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/comparesf2_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/divdf3.zig": {
+    "hide": true
+},
+"special/compiler_rt/divdf3_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/divsf3.zig": {
+    "hide": true
+},
+"special/compiler_rt/divsf3_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/divtf3.zig": {
+    "hide": true
+},
+"special/compiler_rt/divtf3_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/divti3.zig": {
+    "hide": true
+},
+"special/compiler_rt/divti3_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/emutls.zig": {
+    "hide": true
+},
+"special/compiler_rt/extendXfYf2.zig": {
+    "hide": true
+},
+"special/compiler_rt/extendXfYf2_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixdfdi.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixdfdi_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixdfsi.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixdfsi_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixdfti.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixdfti_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixint.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixint_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixsfdi.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixsfdi_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixsfsi.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixsfsi_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixsfti.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixsfti_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixtfdi.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixtfdi_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixtfsi.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixtfsi_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixtfti.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixtfti_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixuint.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixunsdfdi.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixunsdfdi_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixunsdfsi.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixunsdfsi_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixunsdfti.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixunsdfti_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixunssfdi.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixunssfdi_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixunssfsi.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixunssfsi_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixunssfti.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixunssfti_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixunstfdi.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixunstfdi_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixunstfsi.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixunstfsi_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixunstfti.zig": {
+    "hide": true
+},
+"special/compiler_rt/fixunstfti_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/floatXisf.zig": {
+    "hide": true
+},
+"special/compiler_rt/floatdidf.zig": {
+    "hide": true
+},
+"special/compiler_rt/floatdidf_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/floatdisf_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/floatditf.zig": {
+    "hide": true
+},
+"special/compiler_rt/floatditf_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/floatsiXf.zig": {
+    "hide": true
+},
+"special/compiler_rt/floattidf.zig": {
+    "hide": true
+},
+"special/compiler_rt/floattidf_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/floattisf_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/floattitf.zig": {
+    "hide": true
+},
+"special/compiler_rt/floattitf_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/floatundidf.zig": {
+    "hide": true
+},
+"special/compiler_rt/floatundidf_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/floatundisf.zig": {
+    "hide": true
+},
+"special/compiler_rt/floatunditf.zig": {
+    "hide": true
+},
+"special/compiler_rt/floatunditf_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/floatunsidf.zig": {
+    "hide": true
+},
+"special/compiler_rt/floatunsisf.zig": {
+    "hide": true
+},
+"special/compiler_rt/floatunsitf.zig": {
+    "hide": true
+},
+"special/compiler_rt/floatunsitf_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/floatuntidf.zig": {
+    "hide": true
+},
+"special/compiler_rt/floatuntidf_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/floatuntisf.zig": {
+    "hide": true
+},
+"special/compiler_rt/floatuntisf_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/floatuntitf.zig": {
+    "hide": true
+},
+"special/compiler_rt/floatuntitf_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/int.zig": {
+    "hide": true
+},
+"special/compiler_rt/lshrdi3_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/lshrti3_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/modti3.zig": {
+    "hide": true
+},
+"special/compiler_rt/modti3_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/mulXf3.zig": {
+    "hide": true
+},
+"special/compiler_rt/mulXf3_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/muldi3.zig": {
+    "hide": true
+},
+"special/compiler_rt/muldi3_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/mulodi4.zig": {
+    "hide": true
+},
+"special/compiler_rt/mulodi4_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/muloti4.zig": {
+    "hide": true
+},
+"special/compiler_rt/muloti4_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/multi3.zig": {
+    "hide": true
+},
+"special/compiler_rt/multi3_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/negXf2.zig": {
+    "hide": true
+},
+"special/compiler_rt/popcountdi2.zig": {
+    "hide": true
+},
+"special/compiler_rt/popcountdi2_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/shift.zig": {
+    "hide": true
+},
+"special/compiler_rt/sparc.zig": {
+    "hide": true
+},
+"special/compiler_rt/stack_probe.zig": {
+    "hide": true
+},
+"special/compiler_rt/truncXfYf2.zig": {
+    "hide": true
+},
+"special/compiler_rt/truncXfYf2_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/udivmod.zig": {
+    "hide": true
+},
+"special/compiler_rt/udivmoddi4_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/udivmodti4.zig": {
+    "hide": true
+},
+"special/compiler_rt/udivmodti4_test.zig": {
+    "hide": true
+},
+"special/compiler_rt/udivti3.zig": {
+    "hide": true
+},
+"special/compiler_rt/umodti3.zig": {
+    "hide": true
+},
+"special/init-exe/build.zig": {
+    "hide": true
+},
+"special/init-exe/src/main.zig": {
+    "hide": true
+},
+"special/init-lib/build.zig": {
+    "hide": true
+},
+"special/init-lib/src/main.zig": {
+    "hide": true
+},
+"special/ssp.zig": {
+    "hide": true
+},
+"special/test_runner.zig": {
+    "hide": true
+},
+"start.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"start_windows_tls.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"std.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"target.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"target/aarch64.zig": {
+    "hide": false,
+    "compact": true
+},
+"target/amdgpu.zig": {
+    "hide": false,
+    "compact": true
+},
+"target/arm.zig": {
+    "hide": false,
+    "compact": true
+},
+"target/avr.zig": {
+    "description": "",
+    "hide": false,
+    "compact": true
+},
+"target/bpf.zig": {
+    "hide": false,
+    "compact": true
+},
+"target/hexagon.zig": {
+    "description": "",
+    "hide": false,
+    "compact": true
+},
+"target/mips.zig": {
+    "hide": false,
+    "compact": true
+},
+"target/msp430.zig": {
+    "description": "",
+    "hide": false,
+    "compact": true
+},
+"target/nvptx.zig": {
+    "hide": false,
+    "compact": true
+},
+"target/powerpc.zig": {
+    "description": "",
+    "hide": false,
+    "compact": true
+},
+"target/riscv.zig": {
+    "hide": false,
+    "compact": true
+},
+"target/sparc.zig": {
+    "description": "",
+    "hide": false,
+    "compact": true
+},
+"target/spirv.zig": {
+    "hide": false,
+    "compact": true
+},
+"target/systemz.zig": {
+    "description": "",
+    "hide": false,
+    "compact": true
+},
+"target/ve.zig": {
+    "hide": false,
+    "compact": true
+},
+"target/wasm.zig": {
+    "description": "",
+    "hide": false,
+    "compact": true
+},
+"target/x86.zig": {
+    "hide": false,
+    "compact": true
+},
+"testing.zig": {
+    "description": "",
+    "hide": false,
+    "compact": true
+},
+"testing/failing_allocator.zig": {
+    "hide": false,
+    "compact": true
+},
+"time.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"time/epoch.zig": {
+    "hide": false,
+    "compact": false
+},
+"unicode.zig": {
+    "description": "Handle Unicode-specific operations on memory. For simple operations such as coverting English alphabet characters to upper and lower case, see ascii.zig. See mem.zig for most of what you might think of as 'string' operations in other languages.",
+    "hide": false,
+    "compact": false
+},
+"unicode/throughput_test.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"valgrind.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"valgrind/callgrind.zig": {
+    "hide": false,
+    "compact": false
+},
+"valgrind/memcheck.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"wasm.zig": {
+    "description": "",
+    "hide": false,
+    "compact": true
+},
+"x.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"x/net/ip.zig": {
+    "hide": false,
+    "compact": false
+},
+"x/net/tcp.zig": {
+    "hide": false,
+    "compact": false
+},
+"x/os/net.zig": {
+    "hide": false,
+    "compact": false
+},
+"x/os/socket.zig": {
+    "hide": false,
+    "compact": false
+},
+"x/os/socket_posix.zig": {
+    "hide": false,
+    "compact": false
+},
+"x/os/socket_windows.zig": {
+    "hide": false,
+    "compact": false
+},
+"zig.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"zig/ast.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"zig/cross_target.zig": {
+    "hide": false,
+    "compact": false
+},
+"zig/fmt.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"zig/parse.zig": {
+    "hide": false,
+    "compact": false
+},
+"zig/parser_test.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"zig/perf_test.zig": {
+    "hide": false,
+    "compact": false
+},
+"zig/render.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"zig/string_literal.zig": {
+    "hide": false,
+    "compact": false
+},
+"zig/system.zig": {
+    "description": "",
+    "hide": false,
+    "compact": false
+},
+"zig/system/linux.zig": {
+    "hide": false,
+    "compact": false
+},
+"zig/system/macos.zig": {
+    "hide": false,
+    "compact": false
+},
+"zig/system/windows.zig": {
+    "hide": false,
+    "compact": false
+},
+"zig/system/x86.zig": {
+    "hide": false,
+    "compact": false
+},
+"zig/tokenizer.zig": {
+    "hide": false,
+    "compact": false
+},
+"bar/b.zig": {
+    "description": "This is in the generator's tests, not the actual std lib. :-)",
+    "hide": true,
+    "compact": false
+}
+}
